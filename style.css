@@ -59,6 +59,7 @@ body{
     justify-content: center;
     color:rgb(128, 111, 111);
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 .ratings span:hover{
     background-color: orangered;
@@ -72,6 +73,7 @@ body{
     background-color: orangered;
     padding: 0.7rem;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .botão:hover{
     background-color: white;
