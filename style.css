@@ -1,0 +1,95 @@
+@import url(https://fonts.google.com/specimen/EB+Garamond);
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: EB+Garamond;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+}
+.hidden{
+    display: none;
+}
+.card{
+    background-color: rgb(68, 65, 65);
+    border-radius: 1rem;
+    width: 360px;
+}
+.card_conteiner{
+    padding: 1rem;
+}
+.star_icon{
+    background-color: rgb(68, 65, 65);
+    width: fit-content;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.titulo{
+    color: white;
+    margin-bottom: 2rem;
+}
+.descrição{
+    font-size: 15px;
+    color: rgb(132, 121, 121);
+    margin-bottom: 2rem;
+}
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+.ratings span{
+    width: 50px;
+    height: 50px;
+    border-radius: 5rem;
+    display: flex;
+    background-color: rgb(72, 75, 75);
+    align-items: center;
+    justify-content: center;
+    color:rgb(128, 111, 111);
+    margin-bottom: 1rem;
+}
+.ratings span:hover{
+    background-color: orangered;
+    color:white;
+}
+.botão{
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    background-color: orangered;
+    padding: 0.7rem;
+    text-transform: uppercase;
+}
+.botão:hover{
+    background-color: white;
+    color:orangered;
+}
+.agradecimento{
+    text-align: center;
+}
+.chip{
+    background-color: rgb(61, 59, 59);
+    width: fit-content;
+    margin: 2rem auto;
+    color:orangered;
+    font-size: 15px;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+.checked{
+    background-color: orangered !important;
+    color: white !important;
+}
